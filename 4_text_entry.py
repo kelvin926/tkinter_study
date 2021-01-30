@@ -4,12 +4,12 @@ root = Tk()
 root.title("kelvin tkinter") #창 이름
 root.geometry("640x480+100+300") #가로 x 세로 + (나타나는) x좌표 + (나타나는) y좌표
 
-txt = Text(root, width=30, height=5) #여러줄로 입력 받을 때
+txt = Text(root, width=30, height=5) #여러줄로 입력 받을 때 -> Text
 txt.pack()
 txt.insert(END, "글자 입력 ㄲ") #기본 값
 
 
-e = Entry(root, width=30) #한줄로만 입력 받을 때
+e = Entry(root, width=30) #한줄로만 입력 받을 때 -> Entry
 e.pack()
 e.insert(0, "한줄만!")
 

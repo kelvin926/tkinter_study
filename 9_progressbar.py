@@ -29,7 +29,7 @@ def btncmd2():
     for i in range(1, 101): #1 ~ 100
         time.sleep(0.01) # 0.01초 대기
         
-        p_var2.set(i) #progressbr2의 값 설정
+        p_var2.set(i) #progressbar2의 값 설정
         progressbar2.update() #ui 업데이트
         print(p_var2.get())
 

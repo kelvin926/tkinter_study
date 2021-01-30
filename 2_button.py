@@ -1,4 +1,5 @@
 from tkinter import *
+
 root = Tk()
 root.title("kelvin tkinter") #창 이름
 
@@ -17,7 +18,7 @@ btn4.pack()
 btn5 = Button(root, fg="red", bg="yellow", text="버튼5") #fg=폰트색상, bg=바탕색상
 btn5.pack()
 
-photo = PhotoImage(file="tkinter_study/img.png")
+photo = PhotoImage(file="tkinter_study/check.png")
 btn6 = Button(root, image=photo)
 btn6.pack()
 

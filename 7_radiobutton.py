@@ -22,6 +22,7 @@ Label(root, text="selet drink").pack()
 
 drink_var = StringVar() #여기에 string형으로 값을 저장
 btn_drink1 = Radiobutton(root, text="coke", value="coke", variable=drink_var)
+btn_drink1.select()
 btn_drink2 = Radiobutton(root, text="sider", value="sider", variable=drink_var)
 
 btn_drink1.pack()

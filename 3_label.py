@@ -12,7 +12,7 @@ label2.pack()
 def change():
     label1.config(text="hi") #텍스트 변경
     
-    global photo2 #메모리 x
+    global photo2 #메모리 x -> 전역 변수 설정.
     photo2 = PhotoImage(file="tkinter_study/no.png")
     label2.config(image=photo2) #이미지 변경
 
